@@ -391,12 +391,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114679084911467082, guid: 663d8f1c6f02c1545be305597c826a8e,
-        type: 2}
-      propertyPath: laserPlayer
-      value: 
-      objectReference: {fileID: 1730738487049118, guid: e831564e0c428bf4094ca511e7f640b1,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 663d8f1c6f02c1545be305597c826a8e, type: 2}
   m_IsPrefabAsset: 0

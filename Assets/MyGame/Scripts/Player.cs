@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
     void Start ()
     {
         SetUpMoveBounderies();
+        StartCoroutine(PrintAndWait());
     }
 
     // Update is called once per frame
@@ -62,5 +63,12 @@ public class Player : MonoBehaviour {
         yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
         yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
 
+    }
+
+    IEnumerator PrintAndWait()
+    {
+        Debug.Log("First message sent, boss");
+        yield return new WaitForSeconds(3);
+        Debug.Log("The second messages");
     }
 }
