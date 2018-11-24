@@ -89,6 +89,10 @@ MonoBehaviour:
   projectileSpeed: 10
   deathVFX: {fileID: 1082702619515710, guid: 6998f2def036010488181e66cf8211f4, type: 2}
   durationOfExplosion: 0.5
+  deathSFX: {fileID: 8300000, guid: 9757c0f57ccff474d957b64184d72c26, type: 3}
+  deathSFXVolume: 0.7
+  shootSFX: {fileID: 0}
+  shootSFXVolume: 0.25
 --- !u!212 &212139759807597168
 SpriteRenderer:
   m_ObjectHideFlags: 1
