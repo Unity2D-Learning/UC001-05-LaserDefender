@@ -9,8 +9,13 @@ public class Player : MonoBehaviour {
     private const string FIRE1 = "Fire1";
 
     //config parameters
+    [Header("Player")]
     public float moveSpeed = 10f;
     public float padding = 1f;
+    public int health = 200;
+
+
+    [Header("Projectile")]
     public GameObject laserPlayer;
     public float projectileSpeed = 10f;
     public float projectileFiringPeriod = 0.1f;
@@ -31,6 +36,21 @@ public class Player : MonoBehaviour {
         Move();
         Fire();
 	}
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        ProcessHit(damageDealer);
+    }
+
+    private void ProcessHit(DamageDealer damageDealer)
+    {
+        health -= damageDealer.GetDamage();
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Fire()
     {
