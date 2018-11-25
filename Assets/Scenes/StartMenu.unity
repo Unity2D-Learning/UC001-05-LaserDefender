@@ -144,10 +144,10 @@ RectTransform:
   m_Father: {fileID: 1474739860}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: -553.1}
-  m_SizeDelta: {x: 556.3, y: 92.2}
+  m_AnchorMin: {x: 0.26762965, y: 0.18139482}
+  m_AnchorMax: {x: 0.78237045, y: 0.23447898}
+  m_AnchoredPosition: {x: 1, y: 7.4000244}
+  m_SizeDelta: {x: 0.2999878, y: -8.799988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279679106
 MonoBehaviour:
@@ -503,10 +503,10 @@ RectTransform:
   m_Father: {fileID: 1474739860}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 195}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0.5718738}
+  m_AnchorMax: {x: 1, y: 0.615437}
+  m_AnchoredPosition: {x: -0.0012207031, y: 0.7999878}
+  m_SizeDelta: {x: 0, y: -7.699951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893284538
 MonoBehaviour:
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -430.03677, y: 0, z: -435.7638, w: 0}
+  m_margin: {x: 0.26768988, y: 0, z: 1.8588753, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
     characterCount: 17
@@ -660,10 +660,10 @@ RectTransform:
   m_Father: {fileID: 1474739860}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22766668, y: 0.34337828}
-  m_AnchorMax: {x: 0.96400005, y: 0.47700003}
-  m_AnchoredPosition: {x: -44, y: 44}
-  m_SizeDelta: {x: -88, y: -56.5}
+  m_AnchorMin: {x: 0.22870372, y: 0.377}
+  m_AnchorMax: {x: 0.8814815, y: 0.48533666}
+  m_AnchoredPosition: {x: -77.00001, y: 3.5}
+  m_SizeDelta: {x: 2, y: -7.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198613119
 MonoBehaviour:
@@ -750,7 +750,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -5.766197, y: 0, z: 42.291824, w: 0.35742533}
+  m_margin: {x: -1.1370747, y: 0, z: 1.7871944, w: 0.35742533}
   m_textInfo:
     textComponent: {fileID: 1198613119}
     characterCount: 5
@@ -868,10 +868,10 @@ RectTransform:
   m_Father: {fileID: 1474739860}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 394}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0.643}
+  m_AnchorMax: {x: 1, y: 0.7155471}
+  m_AnchoredPosition: {x: 0, y: 3.2999878}
+  m_SizeDelta: {x: 0, y: 3.4000244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206435054
 MonoBehaviour:
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -430.03677, y: 0, z: -435.7638, w: 0}
+  m_margin: {x: -2.3855898, y: 0, z: -1.5584359, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
     characterCount: 14
@@ -1033,6 +1033,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 82979647941987098, guid: 5dce873315853e94e8daba73cdc0e9f5,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 82979647941987098, guid: 5dce873315853e94e8daba73cdc0e9f5,
+        type: 2}
+      propertyPath: m_Pitch
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dce873315853e94e8daba73cdc0e9f5, type: 2}
   m_IsPrefabAsset: 0
@@ -1078,6 +1088,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f53c5171f4baae2489d4b9715327266f, type: 2}
   m_IsPrefabAsset: 0
+--- !u!20 &1452578318 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20210013876683242, guid: f53c5171f4baae2489d4b9715327266f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1452578317}
 --- !u!1 &1463683134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1115,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1463683134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 93.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1494362247}
@@ -1176,8 +1191,8 @@ Canvas:
   m_GameObject: {fileID: 1474739856}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1452578318}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

@@ -15,7 +15,9 @@ public class Level : MonoBehaviour {
     public void LoadMainGame()
     {
         SceneManager.LoadScene("LaserDefenderMain");
-        FindObjectOfType<GameSession>().ResetGame();
+        GameSession tmpSession = FindObjectOfType<GameSession>();
+        if (tmpSession == null) return;
+        tmpSession.ResetGame();
     }
 
     public void LoadGameOver()
