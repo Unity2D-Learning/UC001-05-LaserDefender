@@ -1,13 +1,15 @@
 # UC001-05-LaserDefender
 
 Development Platform: 
-
++ Win 10
 + Unity Version: 2018.2.14f
 + Visual Studio Version: 15.9
 
+<div>
 <img src="./Screenshots/laserdefender-startmenur.jpg" width="250" align="left">
 <img src="./Screenshots/laserdefender-maingame.jpg" width="250" align="left">
 <img src="./Screenshots/laserdefender-gameover.jpg" width="250" align="left">
+</div>
 
 Resourses for this game: 
 + Music: https://opengameart.org Author: SketchyLogic, https://opengameart.org/content/nes-shooter-music-5-tracks-3-jingles
