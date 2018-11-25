@@ -91,7 +91,7 @@ MonoBehaviour:
   durationOfExplosion: 1
   deathSFX: {fileID: 8300000, guid: 9757c0f57ccff474d957b64184d72c26, type: 3}
   deathSFXVolume: 0.7
-  shootSFX: {fileID: 0}
+  shootSFX: {fileID: 8300000, guid: 5e966c0210a6ff94e8c9cb572050e417, type: 3}
   shootSFXVolume: 0.25
 --- !u!212 &212816725468528916
 SpriteRenderer:

@@ -106,6 +106,10 @@ MonoBehaviour:
   moveSpeed: 16.41
   padding: 1
   health: 200
+  deathSFX: {fileID: 8300000, guid: 9757c0f57ccff474d957b64184d72c26, type: 3}
+  deathSFXVolume: 0.7
+  shootSFX: {fileID: 8300000, guid: bf6b3003847f25a44836ae429130a3a6, type: 3}
+  shootSFXVolume: 0.25
   laserPlayer: {fileID: 1730738487049118, guid: e831564e0c428bf4094ca511e7f640b1,
     type: 2}
   projectileSpeed: 25
