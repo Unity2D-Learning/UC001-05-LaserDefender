@@ -14,7 +14,7 @@ Development Platform:
 
 
 
-+ Resourses for this game: 
+Resourses for this game: 
 + Music: https://opengameart.org Author: SketchyLogic, https://opengameart.org/content/nes-shooter-music-5-tracks-3-jingles
 + Sound: https://kenney.nl/assets?q=audio
 + Visuals: https://kenney.nl/assets?s=space+shooter
