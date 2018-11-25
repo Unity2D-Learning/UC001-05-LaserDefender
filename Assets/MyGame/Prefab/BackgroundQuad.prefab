@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4985700001472124}
   - component: {fileID: 33893187707275680}
   - component: {fileID: 23355221959343558}
+  - component: {fileID: 114652972003167908}
   m_Layer: 0
   m_Name: BackgroundQuad
   m_TagString: Untagged
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1824836803940526}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114652972003167908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824836803940526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c56639d45fef2e43abcecd7adfcb3d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundScrollSpeed: 0.1
