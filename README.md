@@ -8,7 +8,7 @@ Development Platform:
 <div>
 <img src="./Screenshots/laserdefender-startmenue.jpg" width="250" align="left">
 <img src="./Screenshots/laserdefender-maingame.jpg" width="250" align="left">
-<img src="./Screenshots/laserdefender-gameover.jpg" width="250" margin-ritght="100px">
+<img src="./Screenshots/laserdefender-gameover.jpg" width="250" margin-right="100px">
 </div>
 
 
