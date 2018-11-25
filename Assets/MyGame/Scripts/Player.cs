@@ -12,11 +12,11 @@ public class Player : MonoBehaviour {
     [Header("Player")]
     public float moveSpeed = 10f;
     public float padding = 1f;
-    public int health = 200;
+    public int health = 300;
     [SerializeField] AudioClip deathSFX;
     [SerializeField] [Range(0, 1)] float deathSFXVolume = 0.7f;
     [SerializeField] AudioClip shootSFX;
-    [SerializeField] float shootSFXVolume = 0.25f;
+    [SerializeField] [Range(0, 1)] float shootSFXVolume = 0.25f;
 
 
     [Header("Projectile")]
@@ -63,6 +63,11 @@ public class Player : MonoBehaviour {
         FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     private void Fire()

@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
     [SerializeField] int scoreValue = 150;
 
     [Header("Shooting")]
-    [SerializeField] float shotCounter;
+    private float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject projectile;
@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour {
     [SerializeField] AudioClip deathSFX;
     [SerializeField] [Range(0,1)]float deathSFXVolume = 0.7f;
     [SerializeField] AudioClip shootSFX;
-    [SerializeField] float shootSFXVolume = 0.25f;
+    [SerializeField] [Range(0, 1)] float shootSFXVolume = 0.25f;
 
 
     // Use this for initialization

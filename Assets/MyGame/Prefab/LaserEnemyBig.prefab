@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 50933911098763516}
   - component: {fileID: 70043698081015222}
   - component: {fileID: 114006014937953606}
-  m_Layer: 10
-  m_Name: LaserPlayer
+  m_Layer: 11
+  m_Name: LaserEnemyBig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1730738487049118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9889505, y: -0.10833435, z: -0.073720485}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.9889505, y: 2.05, z: -0.073720485}
+  m_LocalScale: {x: 1, y: 2.0721, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,8 +75,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.09, y: 0.54}
+  m_Offset: {x: 0.0037480593, y: 0.001249373}
+  m_Size: {x: 0.132478, y: 0.57748044}
   m_Direction: 0
 --- !u!114 &114006014937953606
 MonoBehaviour:
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2d41a43bf77714eaa40567febbdae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 150
 --- !u!212 &212825711666624802
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -125,8 +125,8 @@ SpriteRenderer:
   m_SortingLayerID: -2078005669
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ebd48e4d09d4607438674d812e49e1d1, type: 3}
-  m_Color: {r: 0.9811321, g: 0.6414262, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ab7fbce9381810049b5158f4d8b86143, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
